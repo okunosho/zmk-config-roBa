@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R  &kp T                                                  &kp Y                  &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F  &kp G  &mkp MB3                &mt HOME SQT            &kp H                  &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B  &kp TAB                 &mt END SEMICOLON       &kp N                  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &to 1  &to 6  &lt 4 INT_MUHENKAN      &lt_to_layer_0 0 SPACE  &lt 0 INTERNATIONAL_4                             &mt DELETE BACKSPACE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &to 1  &to 2  &lt 4 INT_MUHENKAN      &lt_to_layer_0 0 SPACE  &lt 0 INTERNATIONAL_4                             &mt DELETE BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         Num {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2   &kp NUMBER_3       &kp NUMBER_4  &kp N5                                 &kp NUMBER_6          &kp N7                 &kp N8         &kp N9            &kp N0
-&kp EXCLAMATION  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp PLUS      &kp ASTERISK  &trans           &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp TILDE      &kp SQT            &kp MINUS     &kp SLASH     &kp PERCENT      &trans  &kt LEFT_BRACE        &kt RIGHT_BRACE        &kt SEMICOLON  &kt UNDERSCORE    &kp RIGHT_SHIFT
-&trans           &trans         &trans             &to 1         &to 3         &to 4            &to 0   &trans                                                                        &trans
+&kp NUMBER_1     &kp NUMBER_2   &kp NUMBER_3       &kp NUMBER_4  &kp N5                                 &kp NUMBER_6          &kp N7                 &kp N8         &kp N9             &kp N0
+&kp EXCLAMATION  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp PLUS      &kp ASTERISK  &trans           &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON      &kp LEFT_BRACKET   &kp ENTER
+&kp LEFT_SHIFT   &kp TILDE      &kp SQT            &kp MINUS     &kp SLASH     &kp PERCENT      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
+&trans           &trans         &trans             &to 1         &to 2         &to 3            &to 0   &trans                                                                         &kp BACKSPACE
             >;
         };
 
@@ -103,7 +103,7 @@
 &kp F1        &kp F2        &kp F3        &kp F4      &kp F5                           &kp F6  &kp F7    &kp F8    &kp F9     &kp F10
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &sys_reset  &bootloader  &trans      &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
 &trans        &trans        &trans        &trans      &trans       &trans      &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans        &trans        &trans        &to 1       &to 6        &to 3       &to 0   &trans                                 &trans
+&trans        &trans        &trans        &to 1       &to 2        &to 3       &to 0   &trans                                 &trans
             >;
         };
 
